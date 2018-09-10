@@ -1,7 +1,7 @@
-/*Crear un programa que mediante un menú admita reservar o cancelar 
-asientos de un avión, así como mostrar qué asientos están ocupados 
+/*Crear un programa que mediante un menÃº admita reservar o cancelar 
+asientos de un aviÃ³n, asÃ­ como mostrar quÃ© asientos estÃ¡n ocupados 
 y libres actualmente.*/
-/* Saul Buitrago - junio 2018 */
+/* Saul Buitrago - septiembre 2018 */
 
 #include "varios.h"
 
@@ -60,7 +60,7 @@ int main(){
     }
   for(i=0;i<n_filas;i++)
     for(j=0;j<n_columnas;j++)
-      asiento[i][j] = 0; // Los asientos inicialmente están libres
+      asiento[i][j] = 0; // Los asientos inicialmente estÃ¡n libres
       
   if(bd == 2){
     for(i=0;i<n_filas;i++){
